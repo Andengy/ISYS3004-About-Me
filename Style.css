@@ -70,33 +70,33 @@ section h2{
 
 section h3{    
     background-color: lightgray; 
-    padding: 25px; 
-    width: 125px;
+    padding: 50px 50px; 
+    width: 350px;
     float: left; 
     display: Block;
     clear: both; 
-    margin-left: 325px
+    margin-left: 465px
 }
 
 section h4{
     background-color: lightgray; 
-    padding: 25px; 
-    width: 125px;
+    padding: 50px 50px; 
+    width: 350px;
     float: left; 
     display: Block;
     clear: both; 
-    margin-left: 325px
-}
-section h5{
-    background-color: lightgray; 
-    padding: 25px; 
-    width: 125px;
-    float: left; 
-    display: Block;
-    clear: both; 
-    margin-left: 325px
+    margin-left: 465px
 }
 
+section h5{
+    background-color: lightgray; 
+    padding: 50px 50px; 
+    width: 350px;
+    float: left; 
+    display: Block;
+    clear: both; 
+    margin-left: 465px
+}
 
 
 /* CSS for the Page name */

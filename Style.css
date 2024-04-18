@@ -1,6 +1,7 @@
 body {
     background-color: #ffffff; 
-    font-family: Arial, sans-serif;
+    font-family: Arial;
+    font-size: 15px;
     margin: 0;
     padding: 0;
 }
@@ -117,6 +118,16 @@ section h7{
     margin-left: 465px
 }
 
+section h3, 
+section h4, 
+section h5, 
+section h6, 
+section h7 {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+
+}
 
 /* CSS for the Page name */
 

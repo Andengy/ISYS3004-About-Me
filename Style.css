@@ -68,14 +68,14 @@ section p {
     margin-left: 490px; 
     clear: both; 
     display: block; 
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 
 section h2, section h3, section h4, section h5, section h6 {
     background-color: lightgray; 
-    padding: 20px; 
-    width: 300px;
+    padding: 25px; 
+    width: 125px;
     float: left; 
     display: Block;
     clear: both; 

@@ -183,6 +183,22 @@ nav ul li a:hover {
     margin-top: 100px;
 }
 
+/* Dark mode styles */
+.dark-mode header {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode nav ul li a {
+    color: #fff;
+    background-color: #555;
+}
+
+.dark-mode footer {
+    background-color: #333;
+    color: #fff;
+}
+
 
 footer {
     background-color: beige;

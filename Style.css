@@ -1,5 +1,4 @@
 body {
-    background-color: #ffffff; 
     font-family: Arial;
     font-size: 15px;
     margin: 0;
@@ -189,15 +188,31 @@ nav ul li a:hover {
     color: #fff;
 }
 
+.dark-mode body {
+    background-color: #343434 !important;
+    color: #fff !important;
+}
+
 .dark-mode nav ul li a {
     color: #fff;
     background-color: #555;
+}
+
+.dark-mode section h2,
+.dark-mode section h3,
+.dark-mode section h4,
+.dark-mode section h5,
+.dark-mode section h6,
+.dark-mode section h7 {
+    background-color: #333;
+    color: #fff;
 }
 
 .dark-mode footer {
     background-color: #333;
     color: #fff;
 }
+
 
 
 footer {

@@ -18,6 +18,11 @@ header h1 {
     padding: 0px;
 }
 
+header h2 {
+    margin-left: 150px;
+    padding: 0px;
+}
+
 header::after {
     content: "";
     display: block;
@@ -56,6 +61,24 @@ nav ul li a:hover {
     background-color: grey;
 }
 
+section h3,
+section h4,
+section h5,
+section h6 {
+    background-color: lightgray; 
+    padding: 25px 50px; 
+    width: 150px;
+    float: left; 
+    display: Block;
+    clear: both; 
+    margin-left: 490px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+
 /* CSS for body paragraph */
 section h2 {
     background-color: lightgray; 
@@ -67,30 +90,21 @@ section h2 {
     margin-left: 325px;
 }
 
-section h3,
-section h4,
-section h5,
-section h6,
-section h7 {
+section p {
     background-color: lightgray; 
     padding: 50px 50px; 
-    width: 750px;
+    width: 400px;
     float: left; 
     display: Block;
     clear: both; 
-    margin-left: 60px;
+    margin-left: 360px;
     font-size: 20px;
     font-family: Arial;
     font-weight: bold;
 }
 
 /* CSS for images */
-#About img,
-#P2 img,
-#P3 img,
-#P4 img,
-#P5 img,
-#P6 img {
+section img {
     width: 750px;
     padding: 30px;
     border: 5px solid white;
@@ -116,11 +130,7 @@ section h7 {
 }
 
 .dark-mode section h2,
-.dark-mode section h3,
-.dark-mode section h4,
-.dark-mode section h5,
-.dark-mode section h6,
-.dark-mode section h7 {
+.dark-mode section p {
     background-color: #333;
     color: #fff;
 }
